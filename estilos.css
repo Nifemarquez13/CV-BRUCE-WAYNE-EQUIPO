@@ -1,0 +1,240 @@
+body {
+    background-color: rgb(241, 240, 255);
+    display: flex;
+    justify-content: center;
+}
+
+/* SECCION A*/
+
+#seccionA {
+    background-color: #03385a;
+    width: 35%;
+
+}
+
+#seccionA p {
+    color: white;
+}
+
+#seccionA h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#contenedorIconos {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 27%;
+    height: 40px;
+    background-color: white;
+    margin-right: 5%;
+}
+
+#iconos {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin-right: 8px;
+}
+
+#infoPersonal {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#iconHobbies {
+    width: 45px;
+}
+
+#iconoBatiMovil {
+    width: 45px;
+    background-color: white;
+}
+
+/*#infoPersonal p {
+    margin-right: 30px;
+    text-align: center;
+    font-size: 18px;
+}*/
+#contenedorPersonal {
+    margin-right: 5%;
+}
+
+/*#infoPersonal a {
+    margin-right: 30px;
+}*/
+
+
+#seccionB {
+    width: 65%;
+    background-color: white;
+}
+
+#seccionA a {
+    color: white;
+}
+
+#contenedorHabilidades {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#contenedorHabilidades label {
+    color: white;
+    width: 45%;
+    margin-top: 5%;
+}
+
+#contenedorHabilidades progress {
+    width: 45%;
+}
+
+/PROGRESO DE FONDO/
+
+progress {
+  -webkit-appearance: none;
+}
+
+::-webkit-progress-bar {
+   background: #0e1d34;
+   border-radius: 5px;
+   height: 70%;
+}
+
+/PROGRESO RECORRIDO/
+
+progress {
+  -webkit-appearance: none;
+}
+
+::-webkit-progress-value {
+  background: white;
+   border-radius: 5px;
+   
+}
+
+#barra1 {
+    width: 20%;
+    height: 20px;
+    background-color: white;
+}
+
+#barra2 {
+    width: 20%;
+    height: 20px;
+    background-color: black;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+
+    border: black 2px solid;
+}
+
+#fotoBruce {
+    text-align: center;
+}
+
+#imgBruce {
+    width: 100%;
+}
+
+#contenedorHobbies {
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+#contenedorHobbies img {
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 5px;
+    margin-bottom: 15%;
+}
+
+/*SECCION B*/
+#Nombre {
+    color: #003d66;
+    text-align: center;
+    margin-bottom: -3%;
+    margin-left: -25%;
+    font-family: 'Merriweather', serif;
+
+}
+#Apellido {
+    color: black;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 0%;
+    margin-left: -30%;
+    font-family: 'Merriweather', serif;
+
+}
+#Cargos {
+    font-family: 'Merriweather', serif;
+    color: #003d66;
+    font-size: 20px;   
+}
+#contenedorInformacion {
+    margin-left: 6%;
+    margin-right: 8%;
+}
+#Datos1 {
+    background: #02365b;
+    color: white;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-weight: 200;
+    border-radius: 15px;
+    width: 70%;
+
+}
+#Datos2 {
+    background: #02365b;
+    color: white;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-weight: 200;
+    border-radius: 15px;
+    width: 40%;
+
+}
+#Datos3 {
+    background: #02365b;
+    color: white;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-weight: 200;
+    border-radius: 15px;
+    width: 50%;
+
+}
+ul{
+    list-style: none;
+}
+ul li {
+    margin-bottom: 10px;
+
+}
+#contenedorEducacion {
+display: flex;
+
+}
+#contenedorEducacion p {
+    margin-right: 5%;
+}
